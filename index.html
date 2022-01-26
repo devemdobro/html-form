@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Form with HTML</title>
+</head>
+<body>
+ 
+<h3>Login</h3>
+
+<form method="GET" action="index.html">
+    <input type="text" name="name" placeholder="Name">
+    <input type="text" name="last-name" placeholder="Last Name">
+    <br>
+    <input class= "contact" type="text" name="contact" placeholder="Email or Phone Number">
+    <br>
+    <input class="password" type="password" placeholder="New Password">
+    <br>
+    <label class="title-label">Birth date</label>
+    <br>
+    <select name="birth-day" id="birth-day">
+        <option value="">Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+
+    </select>
+    
+    <select name="birth-month" id="birth-month">
+        <option value="">Month</option>
+        <option value="Janeiro">Jan</option>
+        <option value="Fevereiro">Feb</option>
+        <option value="Marco">Mar</option>
+        <option value="Abril">Apr</option>
+        <option value="Maio">May</option>
+        
+
+    </select>
+    
+    <select name="birth-year" id="birth-year">
+        <option value="">Year</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+
+    </select>
+    <br>
+    <label class="title-label">Gender</label>
+    <br>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="female">
+
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+
+    <label for="others">Others</label>
+    <input type="radio" name="gender" id="others" value="others">
+    <h5>Illustrative login form. By clicking on the Submit button, no data will be saved.</h5>
+    
+    <br>
+
+    <button>Submit</button>
+
+</form>
+
+</body>
+</html>
